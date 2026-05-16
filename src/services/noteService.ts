@@ -3,7 +3,7 @@ import type { Note, NoteTag } from "../types/note";
 
 const BASE_URL = "https://notehub-public.goit.study/api";
 
-const token = import.meta.env.VITE_API_KEY;
+const token = import.meta.env.VITE_NOTEHUB_TOKEN;
 
 axios.defaults.baseURL = BASE_URL;
 
